@@ -1,0 +1,24 @@
+{
+    "name": "paultheb/urchin",
+    "type": "library",
+    "description": "User authentication session wrapper.",
+    "keywords": ["user", "authentication", "session"],
+    "homepage": "https://github.com/paultheb/urchin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Paul Theberge",
+            "email": "mail@paultheberge.com",
+            "homepage": "http://paultheberge.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">= 5.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Urchin": "src"
+        }
+    }
+}
